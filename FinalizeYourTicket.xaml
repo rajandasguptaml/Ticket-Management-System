@@ -1,0 +1,27 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Demoproject"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="Demoproject.FinalizeYourTicket"
+        mc:Ignorable="d"
+        Title="FinalizeYourTicket" Height="450" Width="800">
+    <Grid Background="#FF10495F" Margin="0,-39,-6.4,0" Height="458" VerticalAlignment="Top">
+        <Button Content="Pay" FontSize="15" Foreground="SeaGreen" HorizontalAlignment="Left" VerticalAlignment="Top" Width="88" Margin="354,270,0,0" Height="29" Click="Button_Click_1" RenderTransformOrigin="1.165,0.41"/>
+        <Label Content="Finalize Your Ticket" FontSize="25"  Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="296" Margin="272,72,0,0" FontFamily="Bodoni MT" FontStyle="Italic" FontWeight="Bold"/>
+        <Label Content="Payment Method" FontSize="15" Foreground="#FFF8FFFB" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="331,148,0,0" Width="123"/>
+        <Button Content="Exit" FontSize="15" Foreground="SeaGreen" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Margin="473,324,0,0" Height="29" Click="Button_Click_2"/>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="319,183,0,0" Height="39">
+            <System:String>Card</System:String>
+            <System:String>Bkash</System:String>
+            <System:String>Rocket</System:String>
+            <System:String>Nagad</System:String>
+
+
+
+        </ComboBox>
+        <Button Content="Previous" FontSize="15" Foreground="SeaGreen" HorizontalAlignment="Right" VerticalAlignment="Top" Width="88" Margin="0,322,476,0" Height="29" Click="Button_Click"/>
+
+    </Grid>
+</Window>
